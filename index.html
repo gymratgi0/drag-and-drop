@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and drop</title>
+</head>
+<body class="body">
+    <h1 class="h2">Associe as instituições com seus respectivos discritivos</h1>
+
+    <div class="divMaior">
+        <div class="div" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img src="./img/fiesp.jpg" draggable="true" ondragstart="drag(event)" id="drag1" width="100" height="31">
+        </div>
+          
+        <div class="div" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img src="./img/senai.png" draggable="true" ondragstart="drag(event)" id="drag2" width="100" height="31">
+        </div>
+
+        <div class="div" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img src="./img/Sesi-SP.jpg" draggable="true" ondragstart="drag(event)" id="drag3" width="100" height="31">
+        </div>
+    </div>
+
+    <div class="divMaior">
+        <div class="div" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="div" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="div" id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </div>
+
+    <div class="divMaior">
+        <div class="div2">
+            <p>Exerce papel fundamental no desenvolvimento social brasileiro, colaborando efetivamente com a melhoria da qualidade de vida do trabalhador da indústria, seus familiares e comunidade em geral por meio de seus serviços nos campos da educação, saúde, lazer e esporte, cultura, alimentação e outros.</p>
+        </div>
+        <div class="div2">
+            <p>É a maior representação de classe do setor no país, no estado que representa mais de 30% de tudo o que segmento produz no Brasil.</p>
+        </div>
+        <div class="div2">
+            <p>É referência nacional no apoio à tecnologia e inovação em empresas industriais de todos os portes e segmentos.</p>
+        </div>
+    </div>
+    
+
+</body>
+</html>

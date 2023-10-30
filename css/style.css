@@ -1,0 +1,36 @@
+.body{
+    background-color: aqua;
+    
+}
+
+.h2{
+    display: flex;
+    justify-content: center;
+}
+.div{
+    border: 2px solid black;
+    width: 200px;
+    height: 60px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divMaior{
+    display: flex;
+    float: left;
+    flex-direction: column;
+}
+
+.div2{
+    border: 2px solid black;
+    width: 500px;
+    height: 60px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
